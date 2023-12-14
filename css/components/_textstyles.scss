@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.studyflow-h1{
+  color: #001847;
+  font-family: Inter;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px; /* 120% */
+  letter-spacing: -1.2px;
+}
+.studyflow-p{
+  color: var(--gray-600, #475467);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+}
+@media(max-width: 1200px){
+  .studyflow-h1{
+    font-size: 45px;
+    line-height: 122%;
+  }
+}
+@media(max-width: 769px){
+  .studyflow-h1{
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .studyflow-p{
+    font-weight: 400;
+  }
+}

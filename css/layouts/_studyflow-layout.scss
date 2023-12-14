@@ -1,0 +1,301 @@
+.studyflow-layout{
+    position: relative;
+    overflow: hidden;
+    .wrap{
+        min-height: 100vh;
+        max-width: 1440px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        padding: 32px 98px;
+    }
+    .studyflow-img1{
+        position: absolute;
+        left: calc(50% - 75px);
+        top: calc(50% + 520px);
+        transform: translateY(-50%);
+    }
+    .studyflow-blob{
+        position: absolute;
+        left: calc(50% + 85px);
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .studyflow-img2{
+        position: absolute;
+        left: calc(50% + 195px);
+        top: calc(50% + 0px);
+        transform: translateY(-50%);
+        max-width: 314px;
+        -webkit-filter: drop-shadow(24.038px 24.038px 48.075px rgba(16, 24, 40, 0.20));
+        filter: drop-shadow(24.038px 24.038px 48.075px rgba(16, 24, 40, 0.20));
+    }
+    .studyflow-img3{
+        position: absolute;
+        left: calc(50% + 18px);
+        top: 50%;
+        transform: translateY(-50%);
+        max-width: 1028px;
+        max-height: calc(100vh - 50px);
+    }
+    .studyflow-img6{
+        position: absolute;
+        left: calc(50% + 31px);
+        top: 50%;
+        transform: translateY(-50%);
+        max-width: 576px;
+        max-height: calc(100vh - 50px);
+    }
+    .left-cont{
+        max-width: 594px;
+    }
+    .tag-type1{
+        margin-bottom: 16px;
+    }
+    .studyflow-h1{
+        margin-bottom: 24px;
+        max-width: 570px;
+    }
+    .studyflow-p{
+        max-width: 480px;
+    }
+    .max-w-510{
+        max-width: 510px;
+    }
+
+    .max-w-560{
+        max-width: 560px;
+    }
+    .buttons-row{
+        margin-top: 46px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+}
+
+
+@media(min-width: 768px){
+    .studyflow-layout--page4{
+        overflow: hidden;
+        height: 100vh;
+        min-height: 700px;
+        .wrap{
+            flex-direction: column;
+            padding: 32px 80px;
+            padding-top: 96px;
+        }
+        .left-cont{
+            max-width: unset !important;
+            text-align: center;
+        }
+        .studyflow-h1{
+            max-width: unset !important;
+        }
+        .studyflow-p{
+            max-width: unset;
+        }
+        .buttons-row{
+            justify-content: center;
+            margin-bottom: 47px;
+        }
+    }
+    @media(max-height: 800px){
+        .studyflow-layout--page4 .studyflow-img4{
+            max-height: 80vh;
+        }
+    }
+    @media(max-height: 700px){
+        .studyflow-layout--page4 .studyflow-img4{
+            max-height: 60vh;
+        }
+    }
+    .studyflow-layout--page5{
+        display: flex;
+        .blue-area{
+            width: 50%;
+            background-color: #397CFF;
+            position: relative;
+            overflow: hidden;
+            img{
+                position: absolute;
+                left: 59px;
+                right: 59px;
+                margin: auto;
+                display: block;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+        .wrap{
+            padding: 32px 66px;
+            width: 50%;
+        }
+        .left-cont{
+            max-width: 627px !important;
+        }
+        .studyflow-h1{
+            max-width: unset !important;
+        }
+        .studyflow-p{
+            max-width: unset;
+        }
+    }
+}
+
+@media(max-width: 1400px){
+    .studyflow-layout .studyflow-img1{
+        left: calc(50% + 50px);
+        top: calc(50% + 310px);
+        max-width: 550px;
+    }
+    .studyflow-layout .studyflow-img3{
+        left: calc(50% + 80px);
+        max-width: 750px;
+    }
+}
+
+@media(max-width: 1200px){
+    .studyflow-layout .studyflow-img1{
+        right: 0;
+        left: unset;
+        top: calc(50% + 310px);
+        max-width: 550px;
+    }
+    .studyflow-layout .studyflow-h1{
+        max-width: 500px;
+        br{
+            display: none;
+        }
+    }
+    .studyflow-layout{
+        .wrap{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+    .studyflow-layout .studyflow-h1{
+        max-width: 450px;
+    }
+    .studyflow-layout .studyflow-blob{
+        left: calc(50% + 70px);
+        max-width: 380px;
+    }
+    .studyflow-layout .studyflow-img2 {
+        left: calc(50% + 130px);
+        max-width: 240px;
+    }
+    .studyflow-layout .studyflow-img6{
+        max-width: 460px;
+        left: calc(50% + 61px);
+    }
+    .studyflow-layout .max-w-560{
+        max-width: 500px;
+        br{
+            display: none;
+        }
+    }
+}
+@media(max-width: 1000px){
+    .studyflow-layout .studyflow-img1 {
+        top: calc(50% + 180px);
+        max-width: 400px;
+    }
+    .studyflow-layout .left-cont{
+        max-width: calc(100% - 380px);
+    }
+    .studyflow-layout .buttons-row-layer6{
+        flex-direction: column;
+        max-width: 400px;
+        a{
+            width: 100%;
+        }
+        .primary-button--transparent{
+            order: 2;
+        }
+    }
+}
+
+@media(max-width: 769px){
+    .studyflow-layout .studyflow-img6{
+        position: relative;
+        transform: unset;
+        top: 0;
+        left: 0;
+        right: 0;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .studyflow-layout6 .studyflow-h1{
+        max-width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .studyflow-layout .left-cont{
+        max-width: 350px;
+    }
+    .studyflow-layout .studyflow-img1{
+        position: relative;
+        max-width: 400px;
+        top: unset;
+        transform: unset;
+        left: unset;
+        right: unset;
+        max-height: 270px;
+        object-fit: cover;
+        width: 100%;
+        object-position: center -110px;
+    }
+    .studyflow-layout .wrap{
+        justify-content: center;
+        padding-bottom: 70px;
+        padding-top: 100px;
+        align-items: end;
+    }
+    .studyflow-layout .buttons-row{
+        flex-direction: column;
+        a{
+            width: 100%;
+        }
+        .primary-button--transparent{
+            order: 2;
+        }
+    }
+    .studyflow-layout .buttons-row{
+        margin-top: 32px;
+    }
+    .studyflow-layout{
+        .studyflow-p,  .studyflow-h1{
+            text-align: center;
+        }
+    }
+    .studyflow-layout .studyflow-h1{
+        margin-bottom: 16px;
+    }
+    .studyflow-layout .left-cont{
+        text-align: center;
+    }
+    .studyflow-layout .studyflow-blob{
+        display: none;
+    }
+    .studyflow-layout .studyflow-img2{
+        position: relative;
+        max-width: 313px;
+        width: 100%;
+        top: unset;
+        transform: unset;
+        left: unset;
+        right: unset;
+        object-fit: cover;
+        width: 100%;
+        object-position: center 0;
+        max-height: 400px;
+        filter: unset;
+        margin-top: 80px;
+    }
+}
+@media(max-width: 370px){
+    .studyflow-layout .studyflow-img1{
+        object-position: center -50px;
+    }
+}
