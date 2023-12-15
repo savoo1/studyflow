@@ -6,6 +6,16 @@
 @import "components/_buttons";
 @import "components/_tags";
 
+// quiz components
+@import "components/_complited-line";
+@import "components/_check-area";
+@import "components/_quiz-answers";
+
+// quiz popups
+@import "components/_quiz-popup";
+
+
 
 // layouts
 @import "layouts/_studyflow-layout";
+@import "layouts/_quiz-layout";

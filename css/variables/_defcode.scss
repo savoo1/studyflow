@@ -38,12 +38,12 @@ ul {
 }
 @media (max-width: 768px) {
   .remove-onMobile {
-    display: none;
+    display: none !important;
   }
 }
 @media (min-width: 769px) {
   .remove-onDesktop {
-    display: none;
+    display: none !important;
   }
 }
 // def code end
